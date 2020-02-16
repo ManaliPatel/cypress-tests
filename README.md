@@ -6,6 +6,9 @@ Tutorial followed from: https://learning.oreilly.com/videos/cypress-modern-autom
 - cypress supports css selectors only
 - update configurations in cypress.json which overrides default behaviors such as wait time
 - by default if run in terminal - cypress runs in headless in electron
+- Cypress uses Mocha and chai. Chai for assertions and mocha framework to structure our tests. Some more information here: https://docs.cypress.io/guides/references/bundled-tools.html#Mocha
+- Cypress only supports chrome, chromium, electron.
+- Cypress is Asynchronus - but takes care of it from backend so that we can write syncronus code.
 
 ## Commands
 - to open cypress runner

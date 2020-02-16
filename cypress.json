@@ -1,3 +1,4 @@
 {
-    "execTimeout": 10000
+    "execTimeout": 10000,
+    "chromeWebSecurity": false
 }
