@@ -1,11 +1,11 @@
 # cypress-tests
+Tutorial followed from: https://learning.oreilly.com/videos/cypress-modern-automation-testing
 
 cypress IMP features:
 - allows us to see what happened on every step with screenshot and error messages 
 - cypress supports css selectors only
 - update configurations in cypress.json which overrides default behaviors such as wait time
 - by default if run in terminal - cypress runs in headless in electron
-
 
 to open cypress runner
 ./node_modules/.bin/cypress open
