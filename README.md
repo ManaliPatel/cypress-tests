@@ -2,13 +2,20 @@
 Tutorial followed from: https://learning.oreilly.com/videos/cypress-modern-automation-testing
 
 ## cypress IMP features:
-- allows us to see what happened on every step with screenshot and error messages 
+- allows us to see what happened on every step with screenshot and error messages - with before and after 
 - cypress supports css selectors only
 - update configurations in cypress.json which overrides default behaviors such as wait time
 - by default if run in terminal - cypress runs in headless in electron
 - Cypress uses Mocha and chai. Chai for assertions and mocha framework to structure our tests. Some more information here: https://docs.cypress.io/guides/references/bundled-tools.html#Mocha
 - Cypress only supports chrome, chromium, electron.
 - Cypress is Asynchronus - but takes care of it from backend so that we can write syncronus code.
+- cypress auto accepts alerts and popups
+- cypress has ability to listen to browser events. Window:alert - you can trigger this event from cypress
+- cypress has ability to manipulate DOM. invoke method of cypress - removeAttr from JQuery
+- you can traverse to sibling with next() - only works on get method
+- Mouse hover events are not supported in cypress. Instead, you can use jQuery or force click.
+
+
 
 ## Commands
 - to open cypress runner
@@ -42,5 +49,6 @@ Tutorial followed from: https://learning.oreilly.com/videos/cypress-modern-autom
 - ('.product:visible') will only find visible elements
 - jquery - $('.product')
 - jquery - document.getElementsByClassName('product')
+- nth-child - tr td:nth-child(2) - gets 2nd column of table
 
 
